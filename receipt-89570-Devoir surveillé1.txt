@@ -1,8 +1,22 @@
-Votre remise a été effectuée avec succès !
-Cours : 89570, Graphes et optimisation
-Évaluation : Devoir surveillé1
+# Définition des informations de la remise
+cours = "89570, Graphes et optimisation"
+evaluation = "Devoir surveillé1"
+date_remise = "02/01/2024 09:54 (en retard)"
+taille_remise = "164,5 ko"
+auteur = "LYONNEL JUNIOR MBOUMBA MBOUMBA"
+numero_confirmation = "7b759ac83c994fd08a8a33c87b448a1c"
 
-Date de remise : 02/01/2024 09:54 (en retard)
-Taille de la remise : 164,5 ko
-Auteur de la remise : LYONNEL JUNIOR MBOUMBA MBOUMBA
-Numéro de confirmation : 7b759ac83c994fd08a8a33c87b448a1c
+# Création du message de confirmation
+message = f"""
+Votre remise a été effectuée avec succès !
+Cours : {cours}
+Évaluation : {evaluation}
+
+Date de remise : {date_remise}
+Taille de la remise : {taille_remise}
+Auteur de la remise : {auteur}
+Numéro de confirmation : {numero_confirmation}
+"""
+
+# Affichage du message
+print(message)
